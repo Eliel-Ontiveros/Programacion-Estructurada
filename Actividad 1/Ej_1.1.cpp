@@ -2,6 +2,7 @@
 //22-Ago-2023 / 22-Ago-2023
 //Calcular y desplegar el promedio acompañado de la leyenda APROBADO o REPROBADO
 //OOEA_Act1_1_932
+//EN MASTER
 #include <stdio.h>
 int main()
 {
