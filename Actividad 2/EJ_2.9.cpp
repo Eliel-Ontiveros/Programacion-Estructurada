@@ -1,7 +1,7 @@
 //Eliel Alfonso Ontiveros Ojeda_368746
 //03-Ago-2023 / 
 //Programa para jugar Piedra, Papel o tijera (Seleccion multiple)
-//
+//OOEA_Act2_9_932
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,7 +1,8 @@
 //Eliel Alfonso Ontiveros Ojeda_368746
 //27-Ago-2023 / 27-Ago-2023
 //Algoritmo que sirva para desplegar el Total de una llamada telefónica
-//OOEA_Act1_11_932
+//OOEA_Act2_5_932
+
 #include <stdio.h>
 int main()
 {

@@ -1,7 +1,7 @@
 //Eliel Alfonso Ontiveros Ojeda_368746
 //29-Ago-2023 / 
 //Programa para calcular el pago total por consumo de agua
-//
+//OOEA_Act2_6_932
 
 #include <stdio.h>
 int main()

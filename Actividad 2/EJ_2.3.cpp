@@ -1,7 +1,7 @@
 //Eliel Alfonso Ontiveros Ojeda_368746
 //29-Ago-2023 / 
 //Programa que lea 6 numeros y despliegue el mayor
-//
+//OOEA_Act2_3_932
 
 #include <stdio.h>
 int main()

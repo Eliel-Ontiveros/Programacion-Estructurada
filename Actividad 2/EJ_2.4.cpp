@@ -1,9 +1,8 @@
 //Eliel Alfonso Ontiveros Ojeda_368746
 //24-Ago-2023 / 27-Ago-2023
 //Programa que sirva para calcular el salario semanal de un trabajador
-//OOEA_Act1_10_932
+//OOEA_Act2_4_932
 
-//Corregir
 
 #include <stdio.h>
 int main()

@@ -1,7 +1,7 @@
 //Eliel Alfonso Ontiveros Ojeda_368746
 //03-Ago-2023 / 
 //Calcular el promedio final de 4 examenes cancelando la calificacion menor
-//
+//OOEA_Act2_7_932
 
 #include <stdio.h>
 int main()
