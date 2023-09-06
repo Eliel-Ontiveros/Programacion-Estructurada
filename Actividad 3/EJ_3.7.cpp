@@ -5,6 +5,14 @@
 
 #include <stdio.h>
 
+void calcularHoroscopo(void);
+
+int main() 
+{
+    calcularHoroscopo();
+    return 0;
+}
+
 void calcularHoroscopo() 
 {
     int mes, dia;
@@ -251,8 +259,4 @@ void calcularHoroscopo()
 
 }
 
-int main() 
-{
-    calcularHoroscopo();
-    return 0;
-}
+
