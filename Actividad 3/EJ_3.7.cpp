@@ -5,7 +5,8 @@
 
 #include <stdio.h>
 
-void calcularHoroscopo() {
+void calcularHoroscopo() 
+{
     int mes, dia;
 
     printf("Ingrese el numero del mes de nacimiento (1-12)\n");
@@ -250,7 +251,8 @@ void calcularHoroscopo() {
 
 }
 
-int main() {
+int main() 
+{
     calcularHoroscopo();
     return 0;
 }
