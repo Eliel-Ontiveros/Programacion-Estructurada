@@ -8,15 +8,15 @@
 void calcularHoroscopo() {
     int mes, dia;
 
-    printf("Ingrese el número del mes de nacimiento (1-12)\n");
+    printf("Ingrese el numero del mes de nacimiento (1-12)\n");
     scanf("%d", &mes);
 
-    printf("Ingrese el día de nacimiento (1-31)\n");
+    printf("Ingrese el dia de nacimiento (1-31)\n");
     scanf("%d", &dia);
 
     if (mes < 1 || mes > 12 || dia < 1 || dia > 31) 
     {
-        printf("Entrada no válida. Asegúrese de ingresar un mes entre 1 y 12 y un día entre 1 y 31.\n");
+        printf("Entrada no valida. Asegurese de ingresar un mes entre 1 y 12 y un día entre 1 y 31.\n");
         return; 
     }
 
