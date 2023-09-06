@@ -1,5 +1,5 @@
 // Eliel Alfonso Ontiveros Ojeda_368746
-// 05-Sep-2023 /
+// 05-Sep-2023 / 05-Sep-2023
 // Programa que lee 3 calificaciones y calcule el promedio
 //OOEA_Act3_1_932
 

@@ -1,5 +1,5 @@
 // Eliel Alfonso Ontiveros Ojeda_368746
-// 05-Sep-2023 /
+// 05-Sep-2023 / 06-Sep-2023
 //Funcion que pida el mes y dia, y el programa le despliega su signo zodiacal y su horoscopo del dia
 //OOEA_Act3_7_932
 

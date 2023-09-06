@@ -1,5 +1,5 @@
 // Eliel Alfonso Ontiveros Ojeda_368746
-// 05-Sep-2023 /
+// 05-Sep-2023 / 05-Sep-2023
 //Programa en C que lea 3 números y despegarlos en forma ascendente (usar AND o OR)
 //OOEA_Act3_6_932
 

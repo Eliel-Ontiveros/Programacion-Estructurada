@@ -1,5 +1,5 @@
 // Eliel Alfonso Ontiveros Ojeda_368746
-// 05-Sep-2023 /
+// 05-Sep-2023 / 05-Sep-2023
 // Programa en C que sirva para el juego del CHINCHAMPU (Condicion anidada)
 //OOEA_Act3_2_932
 

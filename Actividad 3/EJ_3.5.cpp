@@ -1,5 +1,5 @@
 // Eliel Alfonso Ontiveros Ojeda_368746
-// 05-Sep-2023 /
+// 05-Sep-2023 / 05-Sep-2023
 //Programa en C que lea 3 números y desplegar el número del medio (usar AND o OR)
 //OOEA_Act3_5_932
 
