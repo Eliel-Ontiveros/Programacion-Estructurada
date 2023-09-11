@@ -17,6 +17,7 @@ int main() //Iniciamos nuestra funcion principal
     scanf("%f", &cal3); //Escanea una calificacion ingresada por el usuario y la guarda en la variable cal3
 
     prom = (cal1 + cal2 + cal3) / 3; //Calcular el promedio de las 3 calificaciones y lo guarda en la variable prom
+    printf("El promedio es = %.2f\n", prom);
 
     if(prom < 30) //Condicional para comprobar el promedio del usuario, si es menor a 30 se imprimira Repetir
     {
