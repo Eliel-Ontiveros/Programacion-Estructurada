@@ -17,11 +17,15 @@ int msgs(); //Funcion para guardar la seleccion de la funcion que queremos reali
 
 void menu(); //Esta funcion nos servira para guardar las demas funciones dentro de ella, sera nuestro esqueleto
 
-void fibon (void);
+void der_exam (void);
 
-void fact (void);
+void tab_mult (void);
 
-void cant_dig (void);
+void sum_med_arit (void);
+
+void turist_peso (void);
+
+void prom_final (void);
 
 int main() /*En nuestra funcion main llamamos solamente al esqueleto donde se encuentran nuestras funciones*/
 {
@@ -36,19 +40,19 @@ int msgs()
     int op; //Declaramos la variable donde guardaremos la opcion de que operacion realizaremos
     system ("CLS"); //Sirve para limpiar la pantalla al momento de llamar nuestra funcion
     printf("-----M E N U-----\n");
-    printf("1 - Fibonacci\n");
-    printf("2 - Factorial\n");
-    printf("3 - Cantidad de digitos\n");
+    printf("1 - Promedio y Derecho a Examen\n");
+    printf("2 - Tabla de Multiplicar del 1 al 10\n");
+    printf("3 - Suma y Media Aritmetica\n");
+    printf("4 - Promedio Peso de Turistas");
+    printf("5- Promedio de Alumno");
     printf("0 - Salir\n");
     printf("Seleccione una de las opciones\n");
     scanf("%d", &op); //Escaneamos la seleccion dentro de la variable op
     
-
     return op;
-    
+
 }
 
-/*Desarrollo Funcion MENU*/
 void menu()
 {
     int op; //Volvemos a declarar la variable op para poder llamarla desde la funcion msgs
@@ -58,17 +62,29 @@ void menu()
         switch (op) 
         {
         case 1: 
-            fibon();
+            der_exam();
 
             break;
 
         case 2:
-            fact();
+            tab_mult();
 
             break;
 
         case 3:
-            cant_dig();
+            sum_med_arit();
+
+            break;
+
+        case 4:
+
+            turist_peso();
+
+            break;
+
+        case 5:
+
+            prom_final();
 
             break;
 
@@ -80,48 +96,32 @@ void menu()
     
 }
 
-/*Desarrollo Funcion Fibonacci*/
-void fibon()
+/*Desarrollo Funcion Derecho a Examen*/
+void der_exam()
 {
-    int num1 = 0, num2 = 1, sig_num, n, repetir;
-
-    printf("¿Cuántas veces deseas que se realice la secuencia de Fibonacci? ");
-    scanf("%d", &repetir);
-
-    for (int i = 1; i <= n; ++i) {
-        printf("%d, ", num1);
-        sig_num = num1 + num2;
-        num1 = num2;
-        num2 = sig_num;
-    }
-
-    for (int i = 1; i <= repetir; ++i) 
-    {
-        printf("Secuencia de Fibonacci %d: ", i);
-        fibon();
-        printf("\n");
-    }
-
-    system ("PAUSE");
 
 }
 
-/*Desarrollo Funcion Factorial*/
-void fact ()
+/*Desarrollo Funcion Tabla de Multiplicar*/
+void tab_mult()
 {
-
-    system ("CLS");
-
-    system ("PAUSE");
 
 }
 
-/*Desarrollo Funcion Cantidad de Digitos*/
-void cant_dig ()
+/*Desarrollo Funcion Suma y Media Aritmetica*/
+void sum_med_arit()
 {
 
-    system ("CLS");
+}
 
-    system ("PAUSE");
+/*Desarrollo Funcion Promedio de Peso Turistas*/
+void turist_peso()
+{
 
+}
+
+/*Desarrollo Funcion Promedio Final de Alumnos*/
+void prom_final()
+{
+    
 }
