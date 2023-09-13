@@ -77,13 +77,11 @@ void menu()
             break;
 
         case 4:
-
             turist_peso();
 
             break;
 
         case 5:
-
             prom_final();
 
             break;
@@ -100,6 +98,7 @@ void menu()
 void der_exam()
 {
 
+    int n [40];
 }
 
 /*Desarrollo Funcion Tabla de Multiplicar*/
@@ -123,5 +122,5 @@ void turist_peso()
 /*Desarrollo Funcion Promedio Final de Alumnos*/
 void prom_final()
 {
-    
+
 }
