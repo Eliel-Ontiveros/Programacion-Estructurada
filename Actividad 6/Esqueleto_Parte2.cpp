@@ -43,8 +43,8 @@ int msgs()
     printf("1 - Promedio y Derecho a Examen\n");
     printf("2 - Tabla de Multiplicar del 1 al 10\n");
     printf("3 - Suma y Media Aritmetica\n");
-    printf("4 - Promedio Peso de Turistas");
-    printf("5- Promedio de Alumno");
+    printf("4 - Promedio Peso de Turistas\n");
+    printf("5 - Promedio de Alumno\n");
     printf("0 - Salir\n");
     printf("Seleccione una de las opciones\n");
     scanf("%d", &op); //Escaneamos la seleccion dentro de la variable op
@@ -53,6 +53,7 @@ int msgs()
 
 }
 
+/*Desarrollo Funcion Menu*/
 void menu()
 {
     int op; //Volvemos a declarar la variable op para poder llamarla desde la funcion msgs
@@ -97,30 +98,39 @@ void menu()
 /*Desarrollo Funcion Derecho a Examen*/
 void der_exam()
 {
+    printf("Funcion Derecho a Examen\n"); 
 
-    int n [40];
+    system ("PAUSE");   
 }
 
 /*Desarrollo Funcion Tabla de Multiplicar*/
 void tab_mult()
 {
+    printf("Funcion Tabla de Multiplicar\n");
 
+    system ("PAUSE"); 
 }
 
 /*Desarrollo Funcion Suma y Media Aritmetica*/
 void sum_med_arit()
 {
+    printf("Funcion Suma y Media Aritmetica\n");
 
+    system ("PAUSE"); 
 }
 
 /*Desarrollo Funcion Promedio de Peso Turistas*/
 void turist_peso()
 {
+    printf("Funcion Promedio del Peso Turistas\n");
 
+    system ("PAUSE"); 
 }
 
 /*Desarrollo Funcion Promedio Final de Alumnos*/
 void prom_final()
 {
+    printf("Funcion Promedio Final de Alumno\n");
 
+    system ("PAUSE"); 
 }

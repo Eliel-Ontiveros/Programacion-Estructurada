@@ -83,22 +83,23 @@ void menu()
 /*Desarrollo Funcion Fibonacci*/
 void fibon()
 {
-    int num1 = 1, num2 = -1, sig_num, n = 1, repetir;
+    int repetir, term1 = 0, term2 = 1, sig_term;
 
-    printf("¿Cuántas veces deseas que se realice la secuencia de Fibonacci? ");
+    printf("Ingrese las veces deseas que se realice la secuencia de Fibonacci\n");
     scanf("%d", &repetir);
-
-    for (int i = 1; i <= n; ++i) {
-        printf("%d, ", num1);
-        sig_num = num1 + num2;
-        num1 = num2;
-        num2 = sig_num;
-    }
 
     for (int i = 1; i <= repetir; ++i) 
     {
+        term1 = 0;
+        term2 = 1;
         printf("Secuencia de Fibonacci %d: ", i);
-        fibon();
+        for (int j = 1; j <= i; ++j) 
+        {
+            printf("%d, ", term1);
+            sig_term = term1 + term2;
+            term1 = term2;
+            term2 = sig_term;
+        }
         printf("\n");
     }
 
