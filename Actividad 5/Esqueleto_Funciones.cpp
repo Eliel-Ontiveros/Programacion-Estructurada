@@ -27,7 +27,7 @@ void tab_mult (void); //Funcion que despliega la tabla de multiplicar de un nume
 /*En nuestra funcion main llamamos solamente al esqueleto donde se encuentran nuestras funciones*/
 int main()
 {
-    menu ();
+    menu();
 
     return 0;
 }
