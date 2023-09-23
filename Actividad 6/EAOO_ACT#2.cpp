@@ -12,7 +12,6 @@ OOEA_Act6_1_932
 
 /*Declaramos las funciones que utilizaremos durante la realizacion del programa*/
 int validar(char mensaje[], int ri, int rf);
-int askToExit();
 int msgs(); //Funcion para guardar la seleccion de la funcion que queremos realizar
 void menu(); //Esta funcion nos servira para guardar las demas funciones dentro de ella, sera nuestro esqueleto
 void der_exam (void);
