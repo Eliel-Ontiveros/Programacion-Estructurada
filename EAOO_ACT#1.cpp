@@ -1,8 +1,8 @@
 /*
 Eliel Alfonso Ontiveros Ojeda_368746
-06-Sep-2023 / 08-Sep-2023
+14-Sep-2023 / 15-Sep-2023
 PROGRAMA QUE LLAME LOS 4 EJERCICIOS
-OOEA_Act5_1_932
+OOEA_Act6_1_932
 */
 
 #include <stdio.h>
