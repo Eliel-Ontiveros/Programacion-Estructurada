@@ -1,24 +1,109 @@
-#ifdef chntoky.h
-#define chntoky.h 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-void menu(); // Función para navegar por el menú
+int validar_num(char mensaje[], int ri, int rf);
+void llenar_vector(int *vector, int tam, int min, int max);
+void llenar_matriz(int matriz[4][4], int min, int max);
+void imprimir_vector(int *vector, int tam, char *nombre);
+void imprimir_matriz(int matriz[4][4], char *nombre);
+void ordenar_vector(int *vector, int tam);
+int buscar_vector(int *vector, int tam, int valor);
 
-int msgs(); // Función para imprimir el menú y obtener la opción del usuario
+// VALIDAR NUMERO ENTERO
+int validar_num(char mensaje[], int ri, int rf)
+{
+    int num;
+    do
+    {
+        printf("%s", mensaje);
+        fflush(stdin);
+        scanf("%d", &num);
+    } while (num < ri || num > rf);
 
-int validar_num(char mensaje[], int ri, int rf); // Función que valida que el usuario ingrese un numero
+    return num;
+}
 
-void num_aleatorio(int n); // Función para generar un numero aleatorio 
+// LLENAR VECTOR
+void llenar_vector(int *vector, int tam, int min, int max)
+{
+    srand(time(0));
+    for (int i = 0; i < tam; i++)
+    {
+        vector[i] = (rand() % (max - min + 1)) + min;
+    }
+}
 
-void manual_vect(int n, int vect[]); // Función para llenar manualmente un vector 
+// LLENAR MATRIZ
+void llenar_matriz(int matriz[4][4], int min, int max)
+{
+    srand(time(0));
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            matriz[i][j] = (rand() % (max - min + 1)) + min;
+        }
+    }
+}
 
-void random_vect(int n, int vect[], int ri, int rf);  // Función para llenar aleatoriamente un vector
+// IMPRIMIR VECTOR
+void imprimir_vector(int *vector, int tam, char *nombre)
+{
+    printf("%s: ", nombre);
+    for (int i = 0; i < tam; i++)
+    {
+        printf("%d ", vector[i]);
+    }
+    printf("\n");
 
-void vect1_vect2(int n, int vect[]); // Función que genera un vector utilizando como referencia otros 2 vectores existentes
+    system("PAUSE");
 
-void imp_vector(int n, int vect[]); // Función que imprime vectores
+}
 
-void matriz_4x4(int n, int matrix[30][30], int vect1[], int vect2[]);
+// IMPRIMIR MATRIZ
+void imprimir_matriz(int matriz[4][4], char *nombre)
+{
+    printf("%s:\n", nombre);
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            printf("%d ", matriz[i][j]);
+        }
+        printf("\n");
+    }
 
-void imp_matriz(int matrix[30][30]);
+    system("PAUSE");
 
-#endif
+}
+
+// ORDENAR VECTOR
+void ordenar_vector(int *vector, int tam)
+{
+    for (int i = 0; i < tam - 1; i++)
+    {
+        for (int j = 0; j < tam - i - 1; j++)
+        {
+            if (vector[j] > vector[j + 1])
+            {
+                int temp = vector[j];
+                vector[j] = vector[j + 1];
+                vector[j + 1] = temp;
+            }
+        }
+    }
+}
+
+// BUSCAR VALOR EN VECTOR
+int buscar_vector(int *vector, int tam, int valor)
+{
+    for (int i = 0; i < tam; i++)
+    {
+        if (vector[i] == valor)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
