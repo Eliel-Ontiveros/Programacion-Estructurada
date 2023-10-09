@@ -149,3 +149,26 @@ int busq_sec_ord (int vect[], int n, int num)
     return -1;
 
 }
+
+
+// BUSCA UN VALOR INGRESADO POR EL USUARIO
+void valor_vector(int vect[], int tam)
+{
+    int valor;
+    int existe;
+    valor = validar_num("Ingrese el numero que desea buscar en el vector(Rango de 100 a 200)\n", 100, 200);
+    existe = buscar_vector(vect, tam, valor);
+
+    if(existe != -1)
+    {
+        printf("El numero existe dentro del vector, esta en la posicion: %d \n", existe);
+    }
+
+    else
+    {
+        printf("El numero ingresado no se encuentra dentro del vector\n");
+    }
+
+    system ("PAUSE");
+    
+}
