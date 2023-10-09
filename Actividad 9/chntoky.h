@@ -102,6 +102,10 @@ void ordenar_vector(int *vector, int tam)
             }
         }
     }
+
+    printf("Vector Ordenado\n");
+
+    system("PAUSE");
 }
 
 // BUSCAR VALOR EN VECTOR
