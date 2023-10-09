@@ -32,6 +32,10 @@ void llenar_vector(int *vector, int tam, int min, int max)
     {
         vector[i] = (rand() % (max - min + 1)) + min;
     }
+
+    printf("Vector Llenado\n");
+
+    system("PAUSE");
 }
 
 // LLENAR MATRIZ
@@ -45,6 +49,11 @@ void llenar_matriz(int matriz[4][4], int min, int max)
             matriz[i][j] = (rand() % (max - min + 1)) + min;
         }
     }
+
+    printf("Matriz Llenada\n");
+
+    system("PAUSE");
+
 }
 
 // IMPRIMIR VECTOR

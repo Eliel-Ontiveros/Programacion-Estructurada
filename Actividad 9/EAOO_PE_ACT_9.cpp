@@ -1,7 +1,40 @@
 /*
 Eliel Alfonso Ontiveros Ojeda_368746
 03-Oct-2023 / 08-Oct-2023
-#Describir el Programa#
+Realiza programa en C utilizando librería propia, el programa deberá tener el siguiente menú.  
+
+MENÚ
+
+1.- LLENAR VECTOR  
+
+2.- LLENAR MATRIZ
+
+3.- IMPRIMIR VECTOR
+
+4.- IMPRIMIR MATRIZ
+
+5.- ORDENAR VECTOR
+
+6.- BUSCAR VALOR EN VECTOR
+
+0.- SALIR
+
+I N S T R U C C I O N E S 
+
+1.- LLENAR VECTOR .-  Llenar vector con 15 números, los números generados aleatoriamente, los números entre el rango de 100 al 200 (no repetidos)
+
+2.- LLENAR MATRIZ .- Llenar la matriz de 4x4 con con números generados aleatoriamente, números entre el rango de 1 al 16  (no repetidos)
+
+3.- IMPRIMIR VECTOR .- Imprime el vector que se envíe, donde la función recibe como parámetro el vector,tamaño, nombre del vector.
+
+4.- IMPRIMIR MATRIZ.-  Imprime la matriz sin importar el tamaño de la matriz recibiendo como parámetros la matriz, la cantidad de renglones y columnas, así como nombre que se le dará a la matriz
+
+5.- ORDENAR VECTOR.- Usar función que ordene el vector por el método de ordenación de la Burbuja mejorada.  
+
+6.- BUSCAR VALOR EN VECTOR.-  Buscar un valor en el vector usando el método de búsqueda secuencial.
+
+0.- SALIR
+
 OOEA_Act9_1_932
 */
 
