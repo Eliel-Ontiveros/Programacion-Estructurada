@@ -9,6 +9,7 @@ void imprimir_vector(int *vector, int tam, char *nombre);
 void imprimir_matriz(int matriz[4][4], char *nombre);
 void ordenar_vector(int *vector, int tam);
 int buscar_vector(int *vector, int tam, int valor);
+int busq_sec_ord (int vect[], int n, int num);
 
 // VALIDAR NUMERO ENTERO
 int validar_num(char mensaje[], int ri, int rf)
@@ -119,4 +120,32 @@ int buscar_vector(int *vector, int tam, int valor)
         }
     }
     return -1;
+}
+
+// BUSQUEDA SECUENCIAL DETENIENDO EL PROCESO SI NUM NO SE ENCUENTRA DENTRO DEL VECTOR
+int busq_sec_ord (int vect[], int n, int num)
+{
+    int i;
+    i = 0;
+
+    while (i <n)
+    {
+        if (num >= vect[i])
+        {
+            if (num == vect[i])
+            {
+                return i;
+            }
+        }
+
+        else 
+        {
+            return -1;
+        }
+
+        i++;
+    }
+
+    return -1;
+
 }
