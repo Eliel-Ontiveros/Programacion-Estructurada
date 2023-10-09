@@ -150,7 +150,6 @@ int busq_sec_ord (int vect[], int n, int num)
 
 }
 
-
 // BUSCA UN VALOR INGRESADO POR EL USUARIO
 void valor_vector(int vect[], int tam)
 {
