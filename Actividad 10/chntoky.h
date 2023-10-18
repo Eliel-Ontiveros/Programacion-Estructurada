@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <string.h>
 
 int validar_num(char mensaje[], int ri, int rf);
-int validar_string(const char *str);
 int numero_aleatorio(int ri, int rf);
 void llenar_vector(int *vector, int tam, int min, int max);
 void llenar_matriz(int matriz[4][4], int min, int max);
@@ -28,46 +26,6 @@ int validar_num(char mensaje[], int ri, int rf)
 
     return num;
 }
-
-#include <ctype.h>
-
-int validar_string(const char *str)
-{
-    if (str == NULL || str[0] == '\0')
-    {
-        return 0;
-    }
-
-    if (str[0] == ' ')
-    {
-        return 0;
-    }
-
-    for (int i = 0; str[i] != '\0'; i++)
-    {
-        if (str[i] == ' ' && str[i + 1] == ' ')
-        {
-            return 0;
-        }
-
-        if (isdigit((unsigned char)str[i]))
-        {
-            return 0;
-        }
-    }
-
-    for (int i = 0; str[i] != '\0'; i++)
-    {
-        unsigned char c = (unsigned char)str[i];
-        if ((c >= 128 && c <= 165) || (c >= 192 && c <= 255))
-        {
-            return 0;
-        }
-    }
-
-    return 1;
-}
-
 
 int numero_aleatorio(int ri, int rf)
 {
