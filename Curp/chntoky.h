@@ -5,6 +5,7 @@
 
 int validar_num(char mensaje[], int ri, int rf);
 int validar_string(const char *str);
+void mayus(char array[]);
 int numero_aleatorio(int ri, int rf);
 void llenar_vector(int *vector, int tam, int min, int max);
 void llenar_matriz(int matriz[4][4], int min, int max);
@@ -12,8 +13,9 @@ void imprimir_vector(int *vector, int tam, char *nombre);
 void imprimir_matriz(int matriz[4][4], char *nombre);
 void ordenar_vector(int *vector, int tam);
 int buscar_vector(int *vector, int tam, int valor);
-int busq_sec_ord (int vect[], int n, int num);
-int matricula(int n, int min, int max);
+int busq_sec_ord(int vect[], int n, int num);
+void nombre_curp(char *nombre, char *nombre_2, char *ap_paterno, char *ap_materno);
+void cens_curp(char *text, char cens_lista[][500], char remplazar_lista[][500], int n_palabras);
 
 // VALIDAR NUMERO ENTERO
 int validar_num(char mensaje[], int ri, int rf)
@@ -31,43 +33,72 @@ int validar_num(char mensaje[], int ri, int rf)
 
 #include <ctype.h>
 
-int validar_string(const char *str)
+int validar_string(char vect[], int largo)
 {
-    if (str == NULL || str[0] == '\0')
-    {
-        return 0;
-    }
+    int invalido = 0;
+    int i;
 
-    if (str[0] == ' ')
+    do
     {
-        return 0;
-    }
+        invalido = 0;
+        fflush(stdin);
+        gets(vect);
+        mayus(vect);
 
-    for (int i = 0; str[i] != '\0'; i++)
-    {
-        if (str[i] == ' ' && str[i + 1] == ' ')
+        if (vect[0] == ' ')
         {
-            return 0;
+            invalido = 1;
         }
 
-        if (isdigit((unsigned char)str[i]))
+        for (i = 0; vect[i] != '\0'; i++)
         {
-            return 0;
-        }
-    }
+            if ((vect[i] < 'A' || vect[i] > 'Z') && vect[i] != ' ' && vect[i] != 'Ü' && vect[i] != ' ')
+            {
+                invalido = 1;
+                printf("The text cannot contain special characters like this one you wrote [%c]\n", vect[i]);
+                break;
+            }
 
-    for (int i = 0; str[i] != '\0'; i++)
-    {
-        unsigned char c = (unsigned char)str[i];
-        if ((c >= 128 && c <= 165) || (c >= 192 && c <= 255))
-        {
-            return 0;
+            if (vect[i] == ' ' && vect[i + 1] == ' ')
+            {
+                invalido = 1;
+                printf("The text cannot contain double spaces\n");
+                break;
+            }
         }
-    }
+
+        if (strlen(vect) > largo)
+        {
+            printf("The entered text has more than %d characters.\n", largo);
+            invalido = 1;
+        }
+
+        if (invalido == 1)
+        {
+            printf("Please write a different text: \n");
+        }
+
+    } while (invalido == 1);
 
     return 1;
 }
 
+void mayus(char array[])
+{
+    int i;
+    char word;
+    for (i = 0; array[i] != '\0'; i++)
+    {
+        word = array[i];
+        if (word >= 'a')
+        {
+            if (word <= 'z')
+            {
+                array[i] = array[i] - 32;
+            }
+        }
+    }
+}
 
 int numero_aleatorio(int ri, int rf)
 {
@@ -105,7 +136,6 @@ void llenar_matriz(int matriz[4][4], int min, int max)
     printf("Matriz Llenada\n");
 
     system("PAUSE");
-
 }
 
 // IMPRIMIR VECTOR
@@ -119,7 +149,6 @@ void imprimir_vector(int *vector, int tam, char *nombre)
     printf("\n");
 
     system("PAUSE");
-
 }
 
 // IMPRIMIR MATRIZ
@@ -136,7 +165,6 @@ void imprimir_matriz(int matriz[4][4], char *nombre)
     }
 
     system("PAUSE");
-
 }
 
 // ORDENAR VECTOR
@@ -174,12 +202,12 @@ int buscar_vector(int *vector, int tam, int valor)
 }
 
 // BUSQUEDA SECUENCIAL DETENIENDO EL PROCESO SI NUM NO SE ENCUENTRA DENTRO DEL VECTOR
-int busq_sec_ord (int vect[], int n, int num)
+int busq_sec_ord(int vect[], int n, int num)
 {
     int i;
     i = 0;
 
-    while (i <n)
+    while (i < n)
     {
         if (num >= vect[i])
         {
@@ -189,7 +217,7 @@ int busq_sec_ord (int vect[], int n, int num)
             }
         }
 
-        else 
+        else
         {
             return -1;
         }
@@ -198,7 +226,6 @@ int busq_sec_ord (int vect[], int n, int num)
     }
 
     return -1;
-
 }
 
 // BUSCA UN VALOR INGRESADO POR EL USUARIO
@@ -209,7 +236,7 @@ void valor_vector(int vect[], int tam)
     valor = validar_num("Ingrese el numero que desea buscar en el vector(Rango de 100 a 200)\n", 100, 200);
     existe = buscar_vector(vect, tam, valor);
 
-    if(existe != -1)
+    if (existe != -1)
     {
         printf("El numero existe dentro del vector, esta en la posicion: %d \n", existe);
     }
@@ -219,6 +246,28 @@ void valor_vector(int vect[], int tam)
         printf("El numero ingresado no se encuentra dentro del vector\n");
     }
 
-    system ("PAUSE");
-    
+    system("PAUSE");
 }
+
+
+void cens_curp(char *text, char cens_lista[][500], char reemplazar_lista[][500], int n_palabras)
+{
+    for (int i = 0; i < n_palabras; i++)
+    {
+        char *palabra = cens_lista[i];
+        char *reemplazo = reemplazar_lista[i];
+        char *posicion = text;
+
+        while ((posicion = strstr(posicion, palabra)) != NULL)
+        {
+            int largo = strlen(palabra);
+            int remp_largo = strlen(reemplazo);
+
+            memmove(posicion + remp_largo, posicion + largo, strlen(posicion + largo) + 1);
+            memcpy(posicion, reemplazo, remp_largo);
+
+            posicion += remp_largo;
+        }
+    }
+}
+

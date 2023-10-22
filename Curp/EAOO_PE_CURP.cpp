@@ -5,3 +5,6 @@ Eliel Alfonso Ontiveros Ojeda_368746
 */
 
 #include "chntoky.h"
+#include "palabras_inconvenientes.h"
+
+
