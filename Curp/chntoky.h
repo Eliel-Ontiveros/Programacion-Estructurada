@@ -4,7 +4,7 @@
 #include <string.h>
 
 int validar_num(char mensaje[], int ri, int rf);
-int validar_string(const char *str);
+int validar_string(char vect[], int largo);
 void mayus(char array[]);
 int numero_aleatorio(int ri, int rf);
 void llenar_vector(int *vector, int tam, int min, int max);
@@ -52,32 +52,33 @@ int validar_string(char vect[], int largo)
 
         for (i = 0; vect[i] != '\0'; i++)
         {
-            if ((vect[i] < 'A' || vect[i] > 'Z') && vect[i] != ' ' && vect[i] != 'Ü' && vect[i] != ' ')
+            int ascii = (int)vect[i];
+            if ((ascii < 65 || (ascii > 90 || ascii == 209 || ascii == 241)) && vect[i] != ' ' && vect[i] != 'Ü' && vect[i] != ' ')
             {
                 invalido = 1;
-                printf("The text cannot contain special characters like this one you wrote [%c]\n", vect[i]);
+                printf("El texto no puede contener caracteres especiales como el que ha escrito [%c]\n", vect[i]);
                 break;
             }
+            
 
             if (vect[i] == ' ' && vect[i + 1] == ' ')
             {
                 invalido = 1;
-                printf("The text cannot contain double spaces\n");
+                printf("El texto no puede contener dobles espacios\n");
                 break;
             }
         }
 
         if (strlen(vect) > largo)
         {
-            printf("The entered text has more than %d characters.\n", largo);
+            printf("El texto ingresado tiene más de %d caracteres\n", largo);
             invalido = 1;
         }
 
         if (invalido == 1)
         {
-            printf("Please write a different text: \n");
+            printf("Ingrese una respuesta válida: \n");
         }
-
     } while (invalido == 1);
 
     return 1;
@@ -249,7 +250,6 @@ void valor_vector(int vect[], int tam)
     system("PAUSE");
 }
 
-
 void cens_curp(char *text, char cens_lista[][500], char reemplazar_lista[][500], int n_palabras)
 {
     for (int i = 0; i < n_palabras; i++)
@@ -270,4 +270,3 @@ void cens_curp(char *text, char cens_lista[][500], char reemplazar_lista[][500],
         }
     }
 }
-
