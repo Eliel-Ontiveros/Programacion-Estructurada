@@ -1,0 +1,102 @@
+NO. REGISTER || MATRICULA || APELLIDO PATERNO || APELLIDO MATERNO ||        NOMBRE       ||  EDAD  ||  SEXO  || LUGAR DE NACIMIENTO ||    CURP
+=========================================================================================================================================================
+           1 ||    300314 ||        HERNANDEZ ||             CRUZ ||     DANNA      LUNA ||      0 || MUJER  ||        QUINTANA ROO ||HECD230311MQRRRNB2
+           2 ||    301066 ||          MENDOZA ||            REYES ||  GABRIELA           ||     20 || MUJER  ||            GUERRERO ||MERG030415MGRNYBA8
+           3 ||    301447 ||        RODRIGUEZ ||        HERNANDEZ ||     PABLO           ||     21 || HOMBRE ||           TAMAULIPAS ||ROHP020716HTSDRBA8
+           4 ||    302581 ||             DIAZ ||           FLORES ||   JOCELYN           ||     23 || MUJER  ||          TAMAULIPAS ||DIFJ000324MTSZLCA8
+           5 ||    303263 ||             DIAZ ||          SANCHEZ ||       EVA           ||      6 || MUJER  ||            VERACRUZ ||DISE170221MVZZNVB2
+           6 ||    303276 ||          JIMENEZ ||            REYES ||  VERONICA   LILIANA ||     21 || MUJER  ||              SONORA ||JIRV021012MSRMYRA2
+           7 ||    303428 ||        RODRIGUEZ ||            PEREZ ||     ELIEL   ESTEBAN ||      1 || HOMBRE ||              TABASCO ||ROPE220610HTCDRLB4
+           8 ||    303965 ||          JIMENEZ ||           FLORES ||      LUIS           ||     46 || HOMBRE ||              SINALOA ||JIFL770420HSLMLS04
+           9 ||    304455 ||           TORRES ||          JIMENEZ ||    HANNAH           ||     30 || MUJER  ||             DURANGO ||TOJH931225MDGRMN02
+          10 ||    304539 ||            REYES ||         MARTINEZ ||  GABRIELA           ||     41 || MUJER  ||             NAYARIT ||REMG820204MNTYRB02
+          11 ||    304767 ||          SANCHEZ ||          VAZQUEZ ||      JOSE    ALONSO ||      0 || HOMBRE ||            ZACATECAS ||SAVJ231005HZSNZSB3
+          12 ||    304907 ||        GUTIERREZ ||        GUTIERREZ ||     LIZET ELIZABETH ||     30 || MUJER  ||           CHIHUAHUA ||GUGL930411MCMTTZ02
+          13 ||    305108 ||           TORRES ||          VAZQUEZ ||     PABLO   ESTEBAN ||     53 || HOMBRE ||             COAHUILA ||TOVP700121HCHRZB09
+          14 ||    305294 ||          SANCHEZ ||             DIAZ ||  SANTIAGO   ENRIQUE ||     43 || HOMBRE ||              NAYARIT ||SADS800126HNTNZN05
+          15 ||    305851 ||         GONZALEZ ||          RAMIREZ ||    SERGIO     DAVID ||      2 || HOMBRE ||      SAN LUIS POTOSI ||GORS211002HSPNMRB0
+          16 ||    306689 ||         GONZALEZ ||          MORALES ||       EVA     LIZET ||     31 || MUJER  ||           MICHOACAN ||GOME920205MMNNRV07
+          17 ||    307220 ||        HERNANDEZ ||        RODRIGUEZ ||  SANTIAGO   ALFONSO ||     28 || HOMBRE ||           GUANAJUATO ||HERS951006HGTRDN04
+          18 ||    307358 ||        RODRIGUEZ ||          JIMENEZ ||      IVAN           ||      5 || HOMBRE ||             VERACRUZ ||ROJI180914HVZDMVB5
+          19 ||    307527 ||           TORRES ||           TORRES ||   JOCELYN           ||      6 || MUJER  ||           MICHOACAN ||TOTJ170827MMNRRCB2
+          20 ||    307934 ||           TORRES ||            PEREZ ||   ESTEBAN           ||     17 || HOMBRE ||               COLIMA ||TOPE060831HDFRRSA4
+          21 ||    307955 ||           GARCIA ||           TORRES ||       ANA ELIZABETH ||     31 || MUJER  ||              COLIMA ||GATA920125MDFRRN02
+          22 ||    308061 ||             DIAZ ||            REYES ||    SUSANA           ||     53 || MUJER  ||      AGUASCALIENTES ||DIRS700319MASZYS02
+          23 ||    308196 ||             RUIZ ||         GONZALEZ ||      JUDY           ||     19 || MUJER  ||              SONORA ||RUGJ041229MSRZNDA2
+          24 ||    309139 ||             CRUZ ||            GOMEZ ||    ALONSO    MIGUEL ||      4 || HOMBRE ||             TLAXCALA ||CUGA190710HTLRMLB8
+          25 ||    309941 ||         MARTINEZ ||            GOMEZ ||     LUISA   LIZBETH ||     18 || MUJER  ||            GUERRERO ||MAGL051115MGRRMSA2
+          26 ||    310455 ||           TORRES ||           TORRES ||    AURORA           ||     11 || MUJER  ||          NUEVO LEON ||TOTA120517MNLRRRB4
+          27 ||    310843 ||           GARCIA ||          VAZQUEZ ||    BRAYAN     ANGEL ||     28 || HOMBRE ||     CIUDAD DE MEXICO ||GAVB951024HCSRZR05
+          28 ||    311456 ||          RAMIREZ ||        HERNANDEZ ||   ALFONSO           ||     17 || HOMBRE ||              CHIAPAS ||RAHA060328HCLMRLA7
+          29 ||    311596 ||          SANCHEZ ||             CRUZ ||  SANTIAGO           ||     25 || HOMBRE ||            CHIHUAHUA ||SACS980423HCMNRN02
+          30 ||    311829 ||          MORALES ||          SANCHEZ ||     PABLO           ||     33 || HOMBRE ||             COAHUILA ||MOSP901123HCHRNB07
+          31 ||    311983 ||        GUTIERREZ ||          RAMIREZ ||     LIZET     LIZET ||     12 || MUJER  ||              COLIMA ||GURL110818MDFTMZB3
+          32 ||    312069 ||            PEREZ ||        HERNANDEZ ||    HANNAH           ||     31 || MUJER  ||          TAMAULIPAS ||PEHH920518MTSRRN04
+          33 ||    312619 ||          MENDOZA ||            REYES ||     URIEL      LUIS ||     46 || HOMBRE ||              JALISCO ||MERU771228HJCNYR00
+          34 ||    312683 ||            PEREZ ||           TORRES ||    HANNAH           ||     13 || MUJER  ||          TAMAULIPAS ||PETH101018MTSRRNB2
+          35 ||    313686 ||           FLORES ||           TORRES ||   ESTEBAN           ||     52 || HOMBRE ||      BAJA CALIFORNIA ||FOTE711004HBCLRS03
+          36 ||    314038 ||           GARCIA ||         MARTINEZ ||      JOSE           ||     18 || HOMBRE ||           NUEVO LEON ||GAMJ050217HNLRRSA6
+          37 ||    314064 ||          JIMENEZ ||          RAMIREZ ||  SALVADOR      LUIS ||     35 || HOMBRE ||              CHIAPAS ||JIRS880730HCLMML07
+          38 ||    314453 ||             RUIZ ||        GUTIERREZ ||  CRISTINA     ANAHI ||     13 || MUJER  ||            COAHUILA ||RUGC100828MCHZTRB0
+          39 ||    314519 ||             DIAZ ||          JIMENEZ ||      JOSE           ||     30 || HOMBRE ||               OAXACA ||DIJJ930602HOCZMS07
+          40 ||    314878 ||             RUIZ ||         GONZALEZ ||    AURORA   LIZBETH ||     10 || MUJER  ||           CHIHUAHUA ||RUGA130428MCMZNRB6
+          41 ||    314911 ||         GONZALEZ ||         GONZALEZ ||    ANDREA  MICHELLE ||      6 || MUJER  ||             YUCATAN ||GOGA170310MYNNNNB8
+          42 ||    315581 ||          SANCHEZ ||         GONZALEZ ||  SANTIAGO     ANGEL ||     23 || HOMBRE ||            CHIHUAHUA ||SAGS000123HCMNNNA4
+          43 ||    316112 ||         GONZALEZ ||        GUTIERREZ || FRANCISCO           ||     16 || HOMBRE ||            MICHOACAN ||GOGF071111HMNNTRA2
+          44 ||    316954 ||         GONZALEZ ||          VAZQUEZ || FRANCISCO    MIGUEL ||     19 || HOMBRE ||  BAJA CALIFORNIA SUR ||GOVF040216HBSNZRA8
+          45 ||    317175 ||            PEREZ ||            LOPEZ ||      JOSE   ESTEBAN ||     44 || HOMBRE ||           NUEVO LEON ||PELJ790208HNLRPS09
+          46 ||    317218 ||          MORALES ||           GARCIA ||     LUISA           ||     43 || MUJER  ||              MEXICO ||MOGL800721MMCRRS06
+          47 ||    317235 ||           TORRES ||         MARTINEZ ||       EVA           ||     47 || MUJER  ||            GUERRERO ||TOME760519MGRRRV00
+          48 ||    317524 ||            LOPEZ ||        RODRIGUEZ ||       ANA      RUBY ||     53 || MUJER  ||             DURANGO ||LORA701114MDGPDN05
+          49 ||    317729 ||          RAMIREZ ||          VAZQUEZ ||   DANIELA   ARACELI ||     13 || MUJER  ||           QUERETARO ||RAVD101108MQTMZNB1
+          50 ||    318398 ||           TORRES ||          MORALES ||      JUDY    JAZMIN ||     23 || MUJER  ||           QUERETARO ||TOMJ000623MQTRRDA9
+          51 ||    318573 ||             CRUZ ||        RODRIGUEZ ||    ESTHER   LILIANA ||      0 || MUJER  ||              MEXICO ||CURE231128MMCRDSB3
+          52 ||    318983 ||            REYES ||            REYES ||     LUISA           ||     31 || MUJER  ||             NAYARIT ||RERL921203MNTYYS07
+          53 ||    319509 ||          RAMIREZ ||         GONZALEZ ||      LUIS     DAVID ||     19 || HOMBRE ||     CIUDAD DE MEXICO ||RAGL040205HCSMNSA5
+          54 ||    319549 ||          MENDOZA ||          SANCHEZ ||  VERONICA  MICHELLE ||     28 || MUJER  ||              MEXICO ||MESV950227MMCNNR03
+          55 ||    319571 ||            LOPEZ ||            REYES ||    SERGIO      LUIS ||     17 || HOMBRE ||               COLIMA ||LORS060404HDFPYRA1
+          56 ||    319594 ||             CRUZ ||          JIMENEZ ||     LUISA           ||     49 || MUJER  ||           QUERETARO ||CUJL740620MQTRMS06
+          57 ||    319823 ||            GOMEZ ||            REYES ||     MARIA           ||     34 || MUJER  ||             MORELOS ||GORM890708MMSMYR06
+          58 ||    320430 ||        HERNANDEZ ||          VAZQUEZ ||    HANNAH           ||     24 || MUJER  ||              OAXACA ||HEVH990621MOCRZN07
+          59 ||    320570 ||        GUTIERREZ ||           FLORES ||    SUSANA           ||     52 || MUJER  || BAJA CALIFORNIA SUR ||GUFS710327MBSTLS09
+          60 ||    321053 ||         GONZALEZ ||         GONZALEZ ||      JUDY           ||      4 || MUJER  ||            CAMPECHE ||GOGJ190601MCCNNDB8
+          61 ||    321537 ||          MORALES ||           FLORES ||      JUDY           ||     49 || MUJER  ||          TAMAULIPAS ||MOFJ740314MTSRLD03
+          62 ||    321673 ||         GONZALEZ ||         GONZALEZ ||  CRISTIAN           ||     15 || HOMBRE ||             CAMPECHE ||GOGC081014HCCNNRA7
+          63 ||    322595 ||           GARCIA ||        RODRIGUEZ ||     LIZET           ||      9 || MUJER  ||              PUEBLA ||GARL140408MPLRDZB8
+          64 ||    322697 ||           TORRES ||             CRUZ ||  GABRIELA ELIZABETH ||     48 || MUJER  ||           CHIHUAHUA ||TOCG751003MCMRRB07
+          65 ||    323060 ||           TORRES ||           TORRES ||   JOCELYN   LILIANA ||      3 || MUJER  ||             TABASCO ||TOTJ200901MTCRRCB5
+          66 ||    323723 ||          JIMENEZ ||         MARTINEZ ||      LUIS    MIGUEL ||      1 || HOMBRE ||              JALISCO ||JIML220802HJCMRSB4
+          67 ||    323749 ||          VAZQUEZ ||             DIAZ ||    HANNAH ELIZABETH ||     32 || MUJER  ||            VERACRUZ ||VADH910625MVZZZN01
+          68 ||    324065 ||             DIAZ ||           TORRES ||     DANNA ELIZABETH ||     37 || MUJER  ||             NAYARIT ||DITD860806MNTZRN02
+          69 ||    324373 ||          MORALES ||             RUIZ ||      IVAN      IVAN ||     34 || HOMBRE ||               PUEBLA ||MORI891026HPLRZV02
+          70 ||    324598 ||            LOPEZ ||        RODRIGUEZ ||     ELIEL      LUIS ||     31 || HOMBRE ||               SONORA ||LORE920603HSRPDL00
+          71 ||    324991 ||            GOMEZ ||           GARCIA ||      IVAN           ||     45 || HOMBRE ||           EXTRANJERO ||GOGI780525HNEMRV08
+          72 ||    325106 ||         MARTINEZ ||            PEREZ ||      IVAN           ||     20 || HOMBRE ||              TABASCO ||MAPI030512HTCRRVA6
+          73 ||    326110 ||           FLORES ||            PEREZ ||    ALONSO   ALFONSO ||     49 || HOMBRE ||           NUEVO LEON ||FOPA741205HNLLRL09
+          74 ||    326978 ||          SANCHEZ ||            REYES ||   ALFONSO           ||      2 || HOMBRE ||              HIDALGO ||SARA211001HHGNYLB4
+          75 ||    327080 ||           GARCIA ||           TORRES ||    SERGIO     ANGEL ||     16 || HOMBRE ||               SONORA ||GATS070826HSRRRRA2
+          76 ||    327310 ||        HERNANDEZ ||            REYES ||   BEATRIZ           ||     30 || MUJER  ||           MICHOACAN ||HERB931101MMNRYT08
+          77 ||    327369 ||        HERNANDEZ ||            REYES ||    AURORA           ||     23 || MUJER  ||              COLIMA ||HERA000125MDFRYRA5
+          78 ||    327584 ||         GONZALEZ ||           FLORES ||  SALVADOR           ||     26 || HOMBRE ||               SONORA ||GOFS970818HSRNLL05
+          79 ||    327586 ||             RUIZ ||          SANCHEZ ||    HANNAH           ||     33 || MUJER  ||              MEXICO ||RUSH900321MMCZNN03
+          80 ||    328177 ||            LOPEZ ||          MENDOZA || CASSANDRA           ||     15 || MUJER  ||            CAMPECHE ||LOMC081218MCCPNSA0
+          81 ||    328332 ||             DIAZ ||        HERNANDEZ ||   ALFONSO           ||     27 || HOMBRE ||       AGUASCALIENTES ||DIHA960227HASZRL05
+          82 ||    328457 ||         MARTINEZ ||          VAZQUEZ ||       ANA           ||     12 || MUJER  ||             HIDALGO ||MAVA110616MHGRZNB4
+          83 ||    328713 ||          VAZQUEZ ||        HERNANDEZ ||    ALONSO      IVAN ||     15 || HOMBRE ||           EXTRANJERO ||VAHA080405HNEZRLA2
+          84 ||    329078 ||            PEREZ ||         GONZALEZ ||      IVAN           ||      2 || HOMBRE ||              JALISCO ||PEGI210620HJCRNVB5
+          85 ||    329416 ||          MORALES ||          RAMIREZ ||     ELIEL           ||     44 || HOMBRE ||              TABASCO ||MORE791027HTCRML09
+          86 ||    329505 ||          SANCHEZ ||           FLORES ||  GABRIELA           ||     30 || MUJER  ||             MORELOS ||SAFG931203MMSNLB00
+          87 ||    329850 ||          RAMIREZ ||         GONZALEZ ||     PABLO     ANGEL ||     20 || HOMBRE ||     CIUDAD DE MEXICO ||RAGP030407HCSMNBA0
+          88 ||    329856 ||             DIAZ ||            PEREZ ||     URIEL           ||     12 || HOMBRE ||           TAMAULIPAS ||DIPU111204HTSZRRB1
+          89 ||    329930 ||             RUIZ ||          MORALES ||    BRAYAN           ||     29 || HOMBRE ||     CIUDAD DE MEXICO ||RUMB940415HCSZRR02
+          90 ||    329993 ||            LOPEZ ||            LOPEZ ||    ANDREA           ||      3 || MUJER  ||           QUERETARO ||LOLA201021MQTPPNB9
+          91 ||    330355 ||         GONZALEZ ||            REYES ||  VERONICA           ||     12 || MUJER  ||             HIDALGO ||GORV110707MHGNYRB7
+          92 ||    330567 ||           GARCIA ||            LOPEZ ||     LUISA           ||     29 || MUJER  ||           CHIHUAHUA ||GALL941213MCMRPS00
+          93 ||    330589 ||            LOPEZ ||            GOMEZ ||   ESTEBAN           ||     10 || HOMBRE ||              NAYARIT ||LOGE131001HNTPMSB7
+          94 ||    331088 ||         GONZALEZ ||            GOMEZ || CASSANDRA ELIZABETH ||     10 || MUJER  ||            COAHUILA ||GOGC130105MCHNMSB4
+          95 ||    331114 ||         GONZALEZ ||             DIAZ ||       ANA           ||     24 || MUJER  ||              OAXACA ||GODA990510MOCNZN08
+          96 ||    331143 ||        RODRIGUEZ ||           GARCIA ||  CRISTINA           ||     44 || MUJER  ||             HIDALGO ||ROGC791030MHGDRR05
+          97 ||    331211 ||          MENDOZA ||          VAZQUEZ ||  MAURICIO           ||     49 || HOMBRE ||              HIDALGO ||MEVM740702HHGNZR00
+          98 ||    331823 ||          MENDOZA ||             CRUZ ||   ROBERTO     DAVID ||      6 || HOMBRE ||             CAMPECHE ||MECR170129HCCNRBB7
+          99 ||    332335 ||          MENDOZA ||          JIMENEZ ||     ELIEL           ||      5 || HOMBRE ||            CHIHUAHUA ||MEJE180911HCMNMLB3
+         100 ||    332503 ||          JIMENEZ ||         MARTINEZ ||      IVAN           ||     42 || HOMBRE ||             COAHUILA ||JIMI810123HCHMRV05
